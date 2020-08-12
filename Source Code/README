@@ -1,0 +1,42 @@
+==============================================================================================
+==============================================================================================
+COMP90049: Introduction to Machine Learning Project 2
+
+
+This project2 is aimed to predict movie genre from Audio, Visual and Text Features by machine
+learning methods.
+There are two files for the project2,LinearModel.ipynb and NonLinearModel.ipynb
+File LinearModel.ipynb contains two linear machine learning methods(Logistic Regression and 
+Naive Bayes) and the evaluation of methods.
+File NonLinearModel.ipynb contains one non-linear machine learning method(Neural Network).
+
+==============================================================================================
+==============================================================================================
+
+======================
+LinearModel.ipynb
+======================
+
+In this file, two linear machine learning methods(Logistic Regression and Naive Bayes) are 
+implemented.
+
+Code block 1 and Code block 2 are responsible for loading data and pre-processing data.
+Code block 3 uses logistic regression for prediction imported from sklearn library, and then
+calculate its accuracy.
+Code block 4 calculates precision, recall and F-Score in macro averaging for logistic regression.
+Code block 5 uses Naive Bayes for prediction imported from sklearn library, and then calculate 
+its accuracy.
+Code block 6 calculates precision, recall and F-Score in macro averaging for Naive Bayes.
+
+======================
+NonLinearModel.ipynb
+======================
+
+In this file, non-linear machine learning methods(Neural Network) is implemented.
+
+Code block 1 and Code block 2 are responsible for loading training and validation features.
+Code block 3 and Code block 4 are responsible for processing training and validation labels.
+Code block 5 builds the Neural Network flow by tenorflow library.
+Code block 6 runs the neural network and calculates its Accuracy.
+Code block 7 calculates precision, recall and F-Score in macro averaging for neural network.
+Code block 8 and Code block 9 predict the test feature and produce the .csv file for Kaggle.
